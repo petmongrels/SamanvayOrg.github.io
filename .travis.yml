@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.1
+
+install: gem install jekyll
+script: ./deploy
+
+branches:
+  only:
+  - develop
+  - master
+
+env:
+  global:
+  - ENCRYPTION_LABEL="78636a90a0b6"
+  - COMMIT_AUTHOR_EMAIL="mihir.khatwani@gmail.com"
