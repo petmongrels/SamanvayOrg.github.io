@@ -8,6 +8,8 @@ _site
 *.err
 *.orig
 *.log
+deploy_key
+deploy_key.pub
 *.rej
 *.swo
 *.swp
