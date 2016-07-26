@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.1
+
+install: gem install jekyll html-proofer jekyll-sitemap
+script: deploy
+
+# branch whitelist
+branches:
+  only:
+  - develop
+  - master
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - ENCRYPTION_LABEL="78636a90a0b6"
+  - COMMIT_AUTHOR_EMAIL="mihir.khatwani@gmail.com"
