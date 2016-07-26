@@ -12,6 +12,5 @@ branches:
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - ENCRYPTION_LABEL="78636a90a0b6"
   - COMMIT_AUTHOR_EMAIL="mihir.khatwani@gmail.com"
